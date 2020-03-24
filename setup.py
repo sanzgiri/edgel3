@@ -43,14 +43,11 @@ else:
 
 version = imp.load_source('edgel3.version', os.path.join('edgel3', 'version.py'))
 
-with open('README.md') as file:
-    long_description = file.read()
-
 setup(
     name='edgel3',
     version=version.version,
     description='Audio embeddings based on pruned Look, Listen, and Learn (L3) models for the Edge',
-    long_description=long_description,
+    long_description='Audio embeddings based on pruned Look, Listen, and Learn (L3) models for the Edge',
     long_description_content_type='text/markdown',
     url='https://github.com/ksangeeta2429/edgel3',
     author='Sangeeta Kumari',
